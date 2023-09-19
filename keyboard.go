@@ -1,4 +1,4 @@
-// import docdocdock
+// Package import docdocdock
 package keyboard
 
 import (
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// Get float
+// GetFloat is blah blah
 func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
